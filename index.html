@@ -27,9 +27,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#" id="team">Team</a>
         </li>
-        <!-- <li class="nav-item">
-        <a class="nav-link" href="#" id="community">Community</a>
-      </li> -->
         <li class="nav-item">
           <a class="nav-link" href="#" id="support">Support</a>
         </li>
@@ -51,7 +48,7 @@
     }
     // Set default content on page load
     document.addEventListener("DOMContentLoaded", function() {
-      updateContent("Welcome", "This is the default content for the website.");
+      updateContent("Welcome", ".");
     });
 
     // Update content when clicking the title
@@ -65,10 +62,6 @@
 
     document.getElementById("team").addEventListener("click", function () {
       updateContent("the Team", ".");
-    });
-
-    document.getElementById("community").addEventListener("click", function () {
-      updateContent("Commununity", ".");
     });
 
     document.getElementById("support").addEventListener("click", function () {
